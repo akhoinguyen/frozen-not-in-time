@@ -1,3 +1,68 @@
 html {
   font-family: "Fredoka One", sans-serif;
+  color: #c09;
+  background-image: repeating-linear-gradient(-30deg, #c9fcff, #c9fcff .75%, #d4fdff .75%, #d4fdff 1.5%);
+}
+
+section {
+  max-height: 520px;
+}
+
+img {
+width: 180px;
+}
+
+.btn {
+  color: #c09;
+  border-color: #c09;
+}
+
+.max-width {
+  max-width: 19em;
+}
+
+.cherry {
+  z-index: 10;
+  top: -1.75em;
+  left: 3.5em;
+}
+
+.v-fudge {
+  z-index: 9;
+  top: -7.05em;
+  left: 3.33em;
+}
+
+.ch-chip {
+  z-index: 8;
+  top: -12.5em;
+  left: 3.75em;
+}
+
+.mt-chip {
+  top: -17.5em;
+  left: 3.5em;
+}
+
+.cone {
+  z-index: 7;
+  top: -21.5em;
+  left: 3.5em;
+}
+
+.wrapper35 {
+  max-width: 56.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, p {
+  transform-origin: left center;
+}
+
+h1 {
+  transform: rotate(-10deg);
+  top: 6rem;
+  left: 2rem;
+  color: #990073;
 }
